@@ -1,0 +1,93 @@
+#Sarah {
+    color: #179318;
+}
+
+#Sarah:hover{
+    cursor: pointer;
+    color: red;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.score{
+    display: flex;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    margin:auto
+}
+
+#id{
+    margin: auto;
+    display: flex;
+}
+
+#id{
+    font-size: 20px;
+    font-family: "Adelle Sans Devanagari";
+    margin:auto
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #8c27b0, #8ecdff);
+}
+
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.img-container {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 200px;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+}
